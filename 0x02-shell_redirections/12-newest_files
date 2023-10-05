@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Apt | grep -v /
+ls -Apt | head -n 10 | grep -v /
